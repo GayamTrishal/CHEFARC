@@ -6,8 +6,8 @@ Input
 
 The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
 
-    The first line of each test case contains 4 space-separated integers N M K1 K2 denoting the number of rows and columns in the table and the movable ranges of the first and second robot of Chef.
-    The next N lines, each line contains M space-separated numbers either 0 or 1 denoting whether the robots can move to this cell or not (0 means robots can move to this cell, 1 otherwise). It makes sure that values in cell (1, 1) and cell (1, M) are 0.
+1. The first line of each test case contains 4 space-separated integers N M K1 K2 denoting the number of rows and columns in the table and the movable ranges of the first and second robot of Chef.
+2. The next N lines, each line contains M space-separated numbers either 0 or 1 denoting whether the robots can move to this cell or not (0 means robots can move to this cell, 1 otherwise). It makes sure that values in cell (1, 1) and cell (1, M) are 0.
 
 Output
 
@@ -31,21 +31,23 @@ Subtask # 2 : (75 points)
 Example
 
 Input:
-2
-4 4 1 1
-0 1 1 0
-0 1 1 0
-0 1 1 0
-0 0 0 0
-4 4 1 1
-0 1 1 0
-0 1 1 0
-0 1 1 0
-1 0 0 1
+
+    2
+    4 4 1 1
+    0 1 1 0
+    0 1 1 0
+    0 1 1 0
+    0 0 0 0
+    4 4 1 1
+    0 1 1 0
+    0 1 1 0
+    0 1 1 0
+    1 0 0 1
 
 Output:
-5
--1
+
+    5
+    -1
 
 Explanation
 
