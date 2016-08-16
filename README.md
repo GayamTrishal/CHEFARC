@@ -56,8 +56,8 @@ Example case 2. Because the movable range of both robots is 1, robot 1 can not m
 ******************************************************************************************************************************
 
 # SOLUTION
-#include <iostream>
-#include <cmath>
+include <iostream>
+include <cmath>
 using namespace std;
  
 void recursea(int **g,int a,int b,int n,int m,int k);
